@@ -24,4 +24,5 @@ class DemoController < ApplicationController
     sleep 0.1
     "foo#{n}"
   end
+  add_method_tracer :expensive_method_call
 end
